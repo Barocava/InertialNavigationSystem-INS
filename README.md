@@ -1,2 +1,2 @@
 # InertialNavigationSystem-INS
-Desarrollo de un sistema de navegación inercial (INS), sintonizable para múltiples plataformas robóticas.
+Desarrollo de un sistema de navegación inercial (INS), reprogramable para múltiples plataformas robóticas.
