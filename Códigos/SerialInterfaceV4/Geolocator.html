@@ -1,0 +1,42 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Refresh" content="5">
+    <title>Geolocator</title>
+    <link rel="shortcut icon" href="favicon.png" />
+    <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <script src="data.js"></script>
+  </head>
+<body onload="cargar_mapa()">
+  <center><div id="mapa" style="height: 600px; width: 600px;"></div></center>
+  <br>
+    <center><div>
+      <h1><b>Coordenadas Actuales:</b></h1>
+      <b><p id="lat"></p></b>
+      <b><p id="long"></p></b>
+      <b><p id="alt"></p></b>
+    </div></center>
+
+
+</body>
+    <script>
+      function cargar_mapa() {
+        var latitud_longitud = new google.maps.LatLng(Pos[0], Pos[1])
+        var opciones_mapa = {
+          zoom: 19,
+          center: latitud_longitud,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+        var map = new google.maps.Map(document.getElementById('mapa'), opciones_mapa);
+        var marker = new google.maps.Marker({
+            position: latitud_longitud,
+            map: map,
+            title: Pos[2]
+        });
+        document.getElementById("lat").innerHTML = "Latitud: "+Pos[0]; 
+        document.getElementById("long").innerHTML = "Longitud: "+Pos[1]; 
+        document.getElementById("alt").innerHTML = "Altitud: "+Pos[2];  
+      }
+    </script>
+</html>

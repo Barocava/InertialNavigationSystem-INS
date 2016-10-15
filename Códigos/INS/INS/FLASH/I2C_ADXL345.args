@@ -1,0 +1,32 @@
+"./Generated_Code/Vectors_c.obj"
+"./Generated_Code/TI1_c.obj"
+"./Generated_Code/IO_Map_c.obj"
+"./Generated_Code/Cpu_c.obj"
+"./Generated_Code/CI2C2_c.obj"
+"./Generated_Code/CI2C1_c.obj"
+"./Generated_Code/Bit3_c.obj"
+"./Generated_Code/Bit2_c.obj"
+"./Generated_Code/Bit1_c.obj"
+"./Generated_Code/AS2_c.obj"
+"./Generated_Code/AS1_c.obj"
+"./Project_Settings/Startup_Code/startcf_c.obj"
+"./Sources/main_c.obj"
+"./Sources/INS_GPS_c.obj"
+"./Sources/Functions_c.obj"
+"./Sources/Events_c.obj"
+"./Sources/EmbeddedKalman_c.obj"
+-sym full
+-msgstyle parseable
+-proc 51QE
+-lavender model=ewl ,print=int ,scan=int ,io=raw
+-nostdlib
+"$(ProjDirPath)/Project_Settings/Linker_Files/ProcessorExpert.lcf"
+-m __startup
+-L"$(MCUToolsBaseDirEnv)/ColdFire_Support/ewl/lib"
+-application
+-map
+-map keep
+-srec
+-sreclength 252
+-sreceol dos
+-w on

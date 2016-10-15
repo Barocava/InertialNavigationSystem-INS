@@ -1,0 +1,61 @@
+-sym full
+-msgstyle parseable
+-proc 51QE
+-lavender model=ewl ,print=int ,scan=int ,io=raw
+-c
+-nostdinc
+-nosyspath
+-enc ascii
+-i
+"$(ProjDirPath)/Project_Headers"
+-i
+"$(ProjDirPath)/Project_Settings/Startup_Code"
+-i
+"$(ProjDirPath)/Generated_Code"
+-i
+"$(ProjDirPath)/Sources"
+-I-
+-I"$(MCUToolsBaseDirEnv)/ColdFire_Support/hcs08_compatibility"
+-I-
+-I"$(MCUToolsBaseDirEnv)/ColdFire_Support/ewl/EWL_C/include"
+-I-
+-I"$(MCUToolsBaseDirEnv)/ColdFire_Support/ewl/EWL_C/include/sys"
+-I-
+-I"$(MCUToolsBaseDirEnv)/ColdFire_Support/ewl/EWL_Runtime/Runtime_ColdFire/Source"
+-I-
+-I"$(MCUToolsBaseDirEnv)/ColdFire_Support/derivatives/device/include"
+-I-
+-I"$(MCUToolsBaseDirEnv)/ColdFire_Support/derivatives/device/asm_include"
+-I-
+-I"$(MCUToolsBaseDirEnv)/ProcessorExpert/lib/MCF/iofiles"
+-prefix
+"$(ProjDirPath)/Project_Headers/porting_support.h"
+-warn illpragmas
+-warn unwanted
+-warn extended
+-warn hidevirtual
+-warn implicitconv
+-warn unusedarg
+-warn unusedvar
+-warn extracomma
+-warn emptydecl
+-warn structclass
+-opt level=0
+-opt space
+-ipa off
+-inline on
+-align coldfire
+-model smartCode
+-model farData
+-fp soft
+-nocoloring
+-noscheduling
+-nopeephole
+-sdata all
+-requireprotos
+-bool off
+-Cpp_Exceptions off
+-RTTI off
+-char unsigned
+-str nopool
+-str reuse

@@ -1,0 +1,43 @@
+<CodeGenerationInfo>
+  <ToolchainSettings>
+    <option>
+      <name>PE_G_4PEx_ToolChain_Compiler_SearchUserPaths</name>
+      <values lines_count="2">
+        <Line>"${ProjDirPath}/Sources"</Line>
+        <Line>"${ProjDirPath}/Generated_Code"</Line>
+      </values>
+    </option>
+  </ToolchainSettings>
+  <GeneratedFilesList>
+    <GeneratedByPE>
+      <File Name="Documentation/I2C_KALMAN_FILTER_SIGNALS.txt" FileDate="2016-09-09, 01:12:00" FileAge="1473365520037" FileType="3072" />
+      <File Name="Documentation/I2C_KALMAN_FILTER_Settings.xml" FileDate="2016-09-05, 04:03:21" FileAge="1473030201228" FileType="3072" />
+      <File Name="Generated_Code/Bit2.h" FileDate="2016-08-09, 17:59:57" FileAge="1470747597780" FileType="45637" CompNumb="36" />
+      <File Name="Generated_Code/AS1.h" FileDate="2016-08-11, 05:55:57" FileAge="1470876957931" FileType="45637" CompNumb="32" />
+      <File Name="Generated_Code/IO_Map.c" FileDate="2016-08-09, 17:59:57" FileAge="1470747597669" FileType="45637" />
+      <File Name="Project_Settings/Linker_Files/ProcessorExpert.lcf" FileDate="2016-08-09, 17:59:57" FileAge="1470747597645" FileType="8" CompNumb="4" />
+      <File Name="Generated_Code/Bit2.c" FileDate="2016-08-09, 17:59:57" FileAge="1470747597776" FileType="45637" CompNumb="36" />
+      <File Name="Generated_Code/AS1.c" FileDate="2016-08-11, 05:55:57" FileAge="1470876957909" FileType="45637" CompNumb="32" />
+      <File Name="Generated_Code/PE_Error.h" FileDate="2016-08-09, 17:59:57" FileAge="1470747597731" FileType="45637" />
+      <File Name="Generated_Code/TI1.h" FileDate="2016-09-05, 04:03:20" FileAge="1473030200741" FileType="45637" CompNumb="48" />
+      <File Name="Generated_Code/CI2C1.h" FileDate="2016-09-04, 04:03:18" FileAge="1472943798875" FileType="45637" CompNumb="11" />
+      <File Name="Sources/Events.h" FileDate="2016-09-04, 04:03:18" FileAge="1472943798956" FileType="131328" />
+      <File Name="Generated_Code/CI2C1.c" FileDate="2016-09-04, 04:03:18" FileAge="1472943798890" FileType="45637" CompNumb="11" />
+      <File Name="Generated_Code/TI1.c" FileDate="2016-09-05, 04:03:20" FileAge="1473030200923" FileType="45637" CompNumb="48" />
+      <File Name="Generated_Code/Cpu.h" FileDate="2016-08-09, 17:59:57" FileAge="1470747597657" FileType="45637" CompNumb="4" />
+      <File Name="Sources/Events.c" FileDate="2016-09-04, 04:03:18" FileAge="1472943798964" FileType="131328" />
+      <File Name="Generated_Code/Bit1.h" FileDate="2016-08-09, 17:59:57" FileAge="1470747597788" FileType="45637" CompNumb="20" />
+      <File Name="Generated_Code/Cpu.c" FileDate="2016-08-09, 17:59:57" FileAge="1470747597654" FileType="45637" CompNumb="4" />
+      <File Name="Generated_Code/Bit1.c" FileDate="2016-08-09, 17:59:57" FileAge="1470747597784" FileType="45637" CompNumb="20" />
+      <File Name="Generated_Code/Bit3.h" FileDate="2016-08-09, 17:59:57" FileAge="1470747597771" FileType="45637" CompNumb="55" />
+      <File Name="Generated_Code/PE_Const.h" FileDate="2016-08-09, 17:59:57" FileAge="1470747597726" FileType="45637" />
+      <File Name="Generated_Code/Vectors.c" FileDate="2016-09-04, 04:03:18" FileAge="1472943798906" FileType="45637" CompNumb="4" />
+      <File Name="Generated_Code/Bit3.c" FileDate="2016-08-09, 17:59:57" FileAge="1470747597768" FileType="45637" CompNumb="55" />
+      <File Name="Sources/main.c" FileDate="2016-09-05, 08:02:05" FileAge="1473044525574" FileType="128" />
+      <File Name="Generated_Code/PE_Types.h" FileDate="2016-08-09, 17:59:57" FileAge="1470747597739" FileType="45637" />
+      <File Name="Documentation/I2C_KALMAN_FILTER.txt" FileDate="2016-09-04, 04:03:19" FileAge="1472943799166" FileType="3072" />
+      <File Name="Generated_Code/IO_Map.h" FileDate="2016-08-09, 17:59:57" FileAge="1470747597722" FileType="45637" />
+    </GeneratedByPE>
+  </GeneratedFilesList>
+  <CodeGenReference>22</CodeGenReference>
+</CodeGenerationInfo>
